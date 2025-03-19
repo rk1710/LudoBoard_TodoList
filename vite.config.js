@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
+timport { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
 })
+export const API_URL = 'http://34.237.104.18:4000'
